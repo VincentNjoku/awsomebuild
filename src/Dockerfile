@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM python:3.8-slim-buster
+FROM public.ecr.aws/docker/library/python:3.8
 
 WORKDIR /flask-app
 
